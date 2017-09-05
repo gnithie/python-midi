@@ -1,5 +1,5 @@
 import math
-from future.utils import with_metaclass
+from six import with_metaclass
 
 class EventRegistry(object):
     Events = {}
